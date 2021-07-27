@@ -1,0 +1,102 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background-color: #EFDADA;
+}
+
+.card{
+    display: flex;
+    width: 470px;
+    flex-direction: column;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+    padding: 40px 60px;
+}
+.card h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #000000;
+
+    margin-bottom: 75px;
+}
+.card label{
+    align-self: flex-start;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #000000;
+    
+    margin-bottom: 12px;
+}
+.card input{
+    all: unset;
+
+    width: 100%;
+}
+#email{
+    all: unset;
+
+    width: 100%;
+
+    background: #FFFFFF;
+    border: 1px solid #8b8b8b;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.input--senha{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+    background: #FFFFFF;
+    border: 1px solid #8b8b8b;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.input--senha img{
+    cursor: pointer;
+}
+.card button{
+    all: unset;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    background: #13A1F0;
+    border-radius: 8px;
+
+    padding: 13px 35px;
+    margin-top: 40px;
+}
